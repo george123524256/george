@@ -1,0 +1,494 @@
+local ScreenGui = Instance.new("ScreenGui")
+local COFFE = Instance.new("Frame")
+local Top = Instance.new("Frame")
+local Down = Instance.new("Frame")
+local HomeScripts = Instance.new("ImageButton")
+local Scripts = Instance.new("TextLabel")
+local Credits = Instance.new("ImageButton")
+local Creditss = Instance.new("TextLabel")
+local close = Instance.new("ImageButton")
+local Scri = Instance.new("Frame")
+local ScriTop = Instance.new("Frame")
+local COFFESCRIPX = Instance.new("TextLabel")
+local BatX = Instance.new("TextButton")
+local Rker = Instance.new("TextButton")
+local SwordOfSpace = Instance.new("TextButton")
+local Neptuain = Instance.new("TextButton")
+local ChatBypass = Instance.new("TextButton")
+local TheSpaceWorld = Instance.new("TextButton")
+local TheExperimentalSword = Instance.new("TextButton")
+local close_2 = Instance.new("ImageButton")
+local MORE = Instance.new("TextButton")
+local Crdi = Instance.new("Frame")
+local CrdiTop = Instance.new("Frame")
+local CREDITLS = Instance.new("TextLabel")
+local CREDITLSS = Instance.new("TextLabel")
+local CreditlsClose = Instance.new("ImageButton")
+local Cofe = Instance.new("TextLabel")
+local Ver = Instance.new("TextLabel")
+local Wel = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+
+COFFE.Name = "COFFE"
+COFFE.Parent = ScreenGui
+COFFE.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+COFFE.BorderColor3 = Color3.fromRGB(0, 255, 136)
+COFFE.Position = UDim2.new(0.0128205251, 0, 0.0178041738, 0)
+COFFE.Size = UDim2.new(0, 523, 0, 294)
+
+Top.Name = "Top"
+Top.Parent = COFFE
+Top.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Top.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Top.Position = UDim2.new(0.00191204587, 0, 0, 0)
+Top.Size = UDim2.new(0, 520, 0, 24)
+
+Down.Name = "Down"
+Down.Parent = COFFE
+Down.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Down.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Down.Position = UDim2.new(0.00191204587, 0, 0.916126668, 0)
+Down.Size = UDim2.new(0, 521, 0, 23)
+
+HomeScripts.Name = "HomeScripts"
+HomeScripts.Parent = COFFE
+HomeScripts.BackgroundTransparency = 1.000
+HomeScripts.Position = UDim2.new(0.00191204587, 0, 0.914965987, 0)
+HomeScripts.Size = UDim2.new(0, 25, 0, 25)
+HomeScripts.ZIndex = 2
+HomeScripts.Image = "rbxassetid://3926305904"
+HomeScripts.ImageRectOffset = Vector2.new(964, 204)
+HomeScripts.ImageRectSize = Vector2.new(36, 36)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = COFFE
+Scripts.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Scripts.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Scripts.Position = UDim2.new(0.0497131944, 0, 0.928571403, 0)
+Scripts.Size = UDim2.new(0, 59, 0, 19)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.TextScaled = true
+Scripts.TextSize = 14.000
+Scripts.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = COFFE
+Credits.BackgroundTransparency = 1.000
+Credits.LayoutOrder = 4
+Credits.Position = UDim2.new(0.854684532, 0, 0.918367326, 0)
+Credits.Size = UDim2.new(0, 25, 0, 25)
+Credits.ZIndex = 2
+Credits.Image = "rbxassetid://3926305904"
+Credits.ImageRectOffset = Vector2.new(924, 364)
+Credits.ImageRectSize = Vector2.new(36, 36)
+
+Creditss.Name = "Creditss"
+Creditss.Parent = COFFE
+Creditss.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Creditss.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Creditss.Position = UDim2.new(0.885277212, 0, 0.928571403, 0)
+Creditss.Size = UDim2.new(0, 59, 0, 19)
+Creditss.Font = Enum.Font.SourceSans
+Creditss.Text = "Credits"
+Creditss.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creditss.TextScaled = true
+Creditss.TextSize = 14.000
+Creditss.TextWrapped = true
+
+close.Name = "close"
+close.Parent = COFFE
+close.BackgroundTransparency = 1.000
+close.LayoutOrder = 5
+close.Position = UDim2.new(0.946462691, 0, -0.00680271909, 0)
+close.Size = UDim2.new(0, 25, 0, 25)
+close.ZIndex = 2
+close.Image = "rbxassetid://3926305904"
+close.ImageRectOffset = Vector2.new(284, 4)
+close.ImageRectSize = Vector2.new(24, 24)
+
+Scri.Name = "Scri"
+Scri.Parent = COFFE
+Scri.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
+Scri.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Scri.Position = UDim2.new(0.00191204587, 0, 0.0821070224, 0)
+Scri.Size = UDim2.new(0, 519, 0, 246)
+Scri.Visible = false
+
+ScriTop.Name = "ScriTop"
+ScriTop.Parent = Scri
+ScriTop.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+ScriTop.BorderColor3 = Color3.fromRGB(35, 35, 35)
+ScriTop.Position = UDim2.new(0.00191204587, 0, -0.000331841409, 0)
+ScriTop.Size = UDim2.new(0, 520, 0, 22)
+
+COFFESCRIPX.Name = "COFFESCRIPX"
+COFFESCRIPX.Parent = ScriTop
+COFFESCRIPX.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+COFFESCRIPX.BorderColor3 = Color3.fromRGB(35, 35, 35)
+COFFESCRIPX.Position = UDim2.new(-0.00132533908, 0, 0.0841516256, 0)
+COFFESCRIPX.Size = UDim2.new(0, 89, 0, 20)
+COFFESCRIPX.Font = Enum.Font.SourceSans
+COFFESCRIPX.Text = "COFFESCRIPTS"
+COFFESCRIPX.TextColor3 = Color3.fromRGB(255, 255, 255)
+COFFESCRIPX.TextScaled = true
+COFFESCRIPX.TextSize = 14.000
+COFFESCRIPX.TextWrapped = true
+
+BatX.Name = "BatX"
+BatX.Parent = Scri
+BatX.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+BatX.BorderColor3 = Color3.fromRGB(25, 25, 25)
+BatX.Position = UDim2.new(0.00385356462, 0, 0.134146348, 0)
+BatX.Size = UDim2.new(0, 101, 0, 23)
+BatX.Font = Enum.Font.SourceSans
+BatX.Text = "BatX"
+BatX.TextColor3 = Color3.fromRGB(248, 248, 248)
+BatX.TextSize = 14.000
+BatX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://akid23.000webhostapp.com/BatX.lua"))();
+end)
+
+Rker.Name = "Rker"
+Rker.Parent = Scri
+Rker.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Rker.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Rker.Position = UDim2.new(0.404624283, 0, 0.134146348, 0)
+Rker.Size = UDim2.new(0, 101, 0, 23)
+Rker.Font = Enum.Font.SourceSans
+Rker.Text = "Rker"
+Rker.TextColor3 = Color3.fromRGB(248, 248, 248)
+Rker.TextSize = 14.000
+Rker.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://akid23.000webhostapp.com/Rker.lua"))();
+end)
+
+SwordOfSpace.Name = "SwordOfSpace"
+SwordOfSpace.Parent = Scri
+SwordOfSpace.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+SwordOfSpace.BorderColor3 = Color3.fromRGB(25, 25, 25)
+SwordOfSpace.Position = UDim2.new(0.799614668, 0, 0.134146348, 0)
+SwordOfSpace.Size = UDim2.new(0, 101, 0, 23)
+SwordOfSpace.Font = Enum.Font.SourceSans
+SwordOfSpace.Text = "SwordOfSpace"
+SwordOfSpace.TextColor3 = Color3.fromRGB(248, 248, 248)
+SwordOfSpace.TextSize = 14.000
+SwordOfSpace.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://akid23.000webhostapp.com/SwordOfSpace.lua"))();
+end)
+
+Neptuain.Name = "Neptuain"
+Neptuain.Parent = Scri
+Neptuain.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Neptuain.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Neptuain.Position = UDim2.new(0.0019268021, 0, 0.418699205, 0)
+Neptuain.Size = UDim2.new(0, 101, 0, 23)
+Neptuain.Font = Enum.Font.SourceSans
+Neptuain.Text = "Neptuain"
+Neptuain.TextColor3 = Color3.fromRGB(248, 248, 248)
+Neptuain.TextSize = 14.000
+Neptuain.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://akid23.000webhostapp.com/neptuain303.lua"))();
+end)
+
+ChatBypass.Name = "ChatBypass"
+ChatBypass.Parent = Scri
+ChatBypass.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+ChatBypass.BorderColor3 = Color3.fromRGB(25, 25, 25)
+ChatBypass.Position = UDim2.new(0.404624283, 0, 0.418699205, 0)
+ChatBypass.Size = UDim2.new(0, 101, 0, 23)
+ChatBypass.Font = Enum.Font.SourceSans
+ChatBypass.Text = "ChatBypass"
+ChatBypass.TextColor3 = Color3.fromRGB(248, 248, 248)
+ChatBypass.TextSize = 14.000
+ChatBypass.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://akid23.000webhostapp.com/ChatBypass"))();
+end)
+
+TheSpaceWorld.Name = "TheSpaceWorld"
+TheSpaceWorld.Parent = Scri
+TheSpaceWorld.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TheSpaceWorld.BorderColor3 = Color3.fromRGB(25, 25, 25)
+TheSpaceWorld.Position = UDim2.new(0.799614668, 0, 0.418699205, 0)
+TheSpaceWorld.Size = UDim2.new(0, 101, 0, 23)
+TheSpaceWorld.Font = Enum.Font.SourceSans
+TheSpaceWorld.Text = "TheSpaceWorld"
+TheSpaceWorld.TextColor3 = Color3.fromRGB(248, 248, 248)
+TheSpaceWorld.TextSize = 14.000
+TheSpaceWorld.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://akid23.000webhostapp.com/TheSpaceWorld"))();
+end)
+
+TheExperimentalSword.Name = "TheExperimentalSword"
+TheExperimentalSword.Parent = Scri
+TheExperimentalSword.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TheExperimentalSword.BorderColor3 = Color3.fromRGB(25, 25, 25)
+TheExperimentalSword.Position = UDim2.new(0.0154142734, 0, 0.703252077, 0)
+TheExperimentalSword.Size = UDim2.new(0, 108, 0, 23)
+TheExperimentalSword.Font = Enum.Font.SourceSans
+TheExperimentalSword.Text = "TheExperimentalSword"
+TheExperimentalSword.TextColor3 = Color3.fromRGB(248, 248, 248)
+TheExperimentalSword.TextSize = 14.000
+TheExperimentalSword.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://akid23.000webhostapp.com/TheExperimentalSword.lua"))();
+end)
+
+close_2.Name = "close"
+close_2.Parent = Scri
+close_2.BackgroundTransparency = 1.000
+close_2.LayoutOrder = 5
+close_2.Position = UDim2.new(0.95609659, 0, -0.00273767859, 0)
+close_2.Size = UDim2.new(0, 25, 0, 25)
+close_2.ZIndex = 2
+close_2.Image = "rbxassetid://3926305904"
+close_2.ImageRectOffset = Vector2.new(284, 4)
+close_2.ImageRectSize = Vector2.new(24, 24)
+
+MORE.Name = "MORE"
+MORE.Parent = Scri
+MORE.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+MORE.BorderColor3 = Color3.fromRGB(25, 25, 25)
+MORE.Position = UDim2.new(0.396917164, 0, 0.703252077, 0)
+MORE.Size = UDim2.new(0, 108, 0, 23)
+MORE.Font = Enum.Font.SourceSans
+MORE.Text = "MORECOMINGSOON"
+MORE.TextColor3 = Color3.fromRGB(248, 248, 248)
+MORE.TextSize = 14.000
+
+Crdi.Name = "Crdi"
+Crdi.Parent = COFFE
+Crdi.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
+Crdi.BorderColor3 = Color3.fromRGB(0, 255, 102)
+Crdi.Position = UDim2.new(1.01912057, 0, -0.00292699039, 0)
+Crdi.Size = UDim2.new(0, 519, 0, 246)
+Crdi.Visible = false
+
+CrdiTop.Name = "CrdiTop"
+CrdiTop.Parent = Crdi
+CrdiTop.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+CrdiTop.BorderColor3 = Color3.fromRGB(35, 35, 35)
+CrdiTop.Position = UDim2.new(0.00191208208, 0, -0.000331839896, 0)
+CrdiTop.Size = UDim2.new(0, 518, 0, 22)
+
+CREDITLS.Name = "CREDITLS"
+CREDITLS.Parent = CrdiTop
+CREDITLS.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+CREDITLS.BorderColor3 = Color3.fromRGB(35, 35, 35)
+CREDITLS.Position = UDim2.new(-0.00132533908, 0, 0.0841516256, 0)
+CREDITLS.Size = UDim2.new(0, 89, 0, 20)
+CREDITLS.Font = Enum.Font.SourceSans
+CREDITLS.Text = "COFFECREDITS"
+CREDITLS.TextColor3 = Color3.fromRGB(255, 255, 255)
+CREDITLS.TextScaled = true
+CREDITLS.TextSize = 14.000
+CREDITLS.TextWrapped = true
+
+CREDITLSS.Name = "CREDITLSS"
+CREDITLSS.Parent = CrdiTop
+CREDITLSS.BackgroundColor3 = Color3.fromRGB(19, 19, 19)
+CREDITLSS.BorderColor3 = Color3.fromRGB(19, 19, 19)
+CREDITLSS.Position = UDim2.new(0.260213166, 0, 3.038697, 0)
+CREDITLSS.Size = UDim2.new(0, 227, 0, 70)
+CREDITLSS.Font = Enum.Font.SourceSans
+CREDITLSS.Text = "UI DESIGN BY: ZSlinx HELPERS: YEETY, E100,TXN SCRIPTS BY: ZSLINX, E100 DISCORD GROUP BY: ZSLINX"
+CREDITLSS.TextColor3 = Color3.fromRGB(255, 255, 255)
+CREDITLSS.TextScaled = true
+CREDITLSS.TextSize = 14.000
+CREDITLSS.TextWrapped = true
+
+CreditlsClose.Name = "CreditlsClose"
+CreditlsClose.Parent = Crdi
+CreditlsClose.BackgroundTransparency = 1.000
+CreditlsClose.LayoutOrder = 5
+CreditlsClose.Position = UDim2.new(0.948374748, 0, 0, 0)
+CreditlsClose.Size = UDim2.new(0, 25, 0, 25)
+CreditlsClose.ZIndex = 2
+CreditlsClose.Image = "rbxassetid://3926305904"
+CreditlsClose.ImageRectOffset = Vector2.new(284, 4)
+CreditlsClose.ImageRectSize = Vector2.new(24, 24)
+
+Cofe.Name = "Cofe"
+Cofe.Parent = COFFE
+Cofe.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Cofe.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Cofe.Position = UDim2.new(0, 0, 0.0170067642, 0)
+Cofe.Size = UDim2.new(0, 76, 0, 19)
+Cofe.Font = Enum.Font.SourceSans
+Cofe.Text = "COFFEFEHUB"
+Cofe.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cofe.TextScaled = true
+Cofe.TextSize = 14.000
+Cofe.TextWrapped = true
+
+Ver.Name = "Ver"
+Ver.Parent = COFFE
+Ver.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Ver.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Ver.Position = UDim2.new(0.783938825, 0, 0.0170067642, 0)
+Ver.Size = UDim2.new(0, 76, 0, 19)
+Ver.Font = Enum.Font.SourceSans
+Ver.Text = "V.1.5.2BETA"
+Ver.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ver.TextScaled = true
+Ver.TextSize = 14.000
+Ver.TextWrapped = true
+
+Wel.Name = "Wel"
+Wel.Parent = COFFE
+Wel.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Wel.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Wel.Position = UDim2.new(0.426386237, 0, 0.0170067642, 0)
+Wel.Size = UDim2.new(0, 76, 0, 19)
+Wel.Font = Enum.Font.SourceSans
+Wel.Text = "WELCOME!!"
+Wel.TextColor3 = Color3.fromRGB(255, 255, 255)
+Wel.TextScaled = true
+Wel.TextSize = 14.000
+Wel.TextWrapped = true
+
+
+local function RTMSB_fake_script() -- HomeScripts.LocalScript 
+	local script = Instance.new('LocalScript', HomeScripts)
+
+	local frame = script.Parent.Parent.Scri  -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(RTMSB_fake_script)()
+local function EMOD_fake_script() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript', Credits)
+
+	local frame = script.Parent.Parent.Crdi  -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(EMOD_fake_script)()
+local function DJPLIHC_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(DJPLIHC_fake_script)()
+local function DYFQPYO_fake_script() -- close_2.LocalScript 
+	local script = Instance.new('LocalScript', close_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(DYFQPYO_fake_script)()
+local function ORML_fake_script() -- CreditlsClose.LocalScript 
+	local script = Instance.new('LocalScript', CreditlsClose)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(ORML_fake_script)()
+local function AUJMKW_fake_script() -- Crdi.LocalScript 
+	local script = Instance.new('LocalScript', Crdi)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 1, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(AUJMKW_fake_script)()
+local function GNQJG_fake_script() -- COFFE.LocalScript 
+	local script = Instance.new('LocalScript', COFFE)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 1, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(GNQJG_fake_script)()
